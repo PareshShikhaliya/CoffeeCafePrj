@@ -22,7 +22,7 @@ class Order {
         return total;
     }
 }
- class Coffee {
+class Coffee {
     private CoffeeType type;
     private double price;
 
@@ -33,8 +33,6 @@ class Order {
                 price = 2.0;
                 break;
             case LATTE:
-                price = 3.0;
-                break;
             case CAPPUCCINO:
                 price = 3.0;
                 break;
